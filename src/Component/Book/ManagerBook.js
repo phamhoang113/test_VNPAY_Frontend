@@ -25,8 +25,8 @@ class ManagerBook extends Component {
                 <div class="col-lg-8 mx-auto mt-5" style={{ minHeight: '79.3333333vh' }}>
                     <div class="row ">
                         <div className="button-container">
-                            <Nav.Link href="/manager_book" className="btn btn-href">Thêm</Nav.Link>
-                            <Nav.Link href="/manager_book" className="btn btn-href">Sửa</Nav.Link>
+                            <Nav.Link href="/addbook" className="btn btn-href">Thêm</Nav.Link>
+                            <Nav.Link href="/updatebook" className="btn btn-href">Sửa</Nav.Link>
                             <Nav.Link href="/manager_book" className="btn btn-href">Xóa</Nav.Link>
                         </div>
                     </div>

@@ -7,6 +7,8 @@ import BookList from './Component/Book/BookList';
 import ManagerBook from './Component/Book/ManagerBook';
 import LogIn from './Component/login/Login';
 import SignUp from './Component/login/Signup';
+import UpdateBook from './Component/Book/updateBook';
+import AddBook from './Component/Book/addBook';
 
 class App extends Component {
   render() {
@@ -19,6 +21,8 @@ class App extends Component {
             <Route path='/manager_book' exact={true} component={ManagerBook}/>
             <Route path='/login' exact={true} component={LogIn}/>
             <Route path='/signup' exact={true} component={SignUp}/>
+            <Route path='/addbook' exact={true} component={AddBook}/>
+            <Route path='/updatebook' exact={true} component={UpdateBook}/>
           </Switch>
         </Router>
     )
