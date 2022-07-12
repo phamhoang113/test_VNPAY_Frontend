@@ -1,0 +1,8 @@
+import React from 'react'
+
+const checkLogin = () => {
+    if (sessionStorage.getItem("user") != null && sessionStorage.getItem("user") != '') return true;
+    else return false;
+}
+
+export default checkLogin
